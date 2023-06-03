@@ -1,1 +1,26 @@
-||obo.videocenter.org^
+! Title: uBlock₀ filters – Badware risks
+! Description: |
+!   For sites documented to put users at risk of installing 
+!   adware/crapware/malware, having login credentials stolen, etc.
+!   The purpose is to at least ensure a user is warned of the risks ahead.
+! Expires: 5 days
+! Last modified: Fri, 02 Jun 2023 12:45:49 +0000
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! Homepage: https://github.com/uBlockOrigin/uAssets
+!
+! GitHub issues: https://github.com/uBlockOrigin/uAssets/issues
+! GitHub pull requests: https://github.com/uBlockOrigin/uAssets/pulls
+!
+! Each entry has to be well enough sourced, see the comments above each entry for sources
+
+! Using request of type `document` will cause the whole site to be blocked through
+! strict blocking, yet the site will render properly if a user still decides to
+! go ahead.
+
+! 2014-10-22: https://assiste.com/01Net.html
+! 2013-03-25: https://www.malekal.com/pctutotuto4pc-association-avec-01net/
+! 2012-10-31: https://www.journaldunet.com/solutions/dsi/des-malwares-sur-telecharger-com-01net-1012.shtml
+! 2012-10-30: https://www.lesnumeriques.com/appli-logiciel/telecharger-depuis-01net-nuit-gravement-a-sante-pc-n26763.html
+! 2012-06-17: https://www.malekal.com/01net-pc-optimizer-pour-ne-pas-optimiser-son-pc/
+! 2012-02-17: http://neosting.net/logiciels/01net-et-softonic-ajoutent-aussi-un-installeur-publicitaire.html (Dead page)
+||obo.videocenter.org^$doc
